@@ -54,7 +54,6 @@ def check_url(message):
         except UnicodeDecodeError:
             bot.send_message(CHAT_ID, f"Impossible de décoder la page en utf8")
             return
-        print(page_content)
 
         if ROOT_DOMAIN in page_content:
             result = "True"
