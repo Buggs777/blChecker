@@ -23,7 +23,7 @@ def check_url(url, root_domain):
         return False
 
 def main():
-    csv_filename = "bl_list.csv"
+    csv_filename = "/root/blChecker/blChecker/bl_list.csv"
     
     if not os.path.isfile(csv_filename):
         print(f"Error: {csv_filename} not found.")
