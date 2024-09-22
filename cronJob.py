@@ -2,7 +2,7 @@ import telebot
 import mechanize
 import csv
 import os
-
+ 
 TOKEN = ''
 CHAT_ID = ''
 
