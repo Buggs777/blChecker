@@ -8,6 +8,8 @@ token = input("Token TLG : ")
 chat_id = input("Chat ID : ")
 root_domain = input("Root Domain : ")
 
+root_domain = root_domain.replace("https://", "").replace("http://", "").replace("www.", "")
+
 bot_script = f"""
 import telebot
 import mechanize
